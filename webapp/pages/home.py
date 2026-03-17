@@ -26,7 +26,7 @@ def show_home():
     - **Technical Analysis**: Calculates RSI, MACD, Moving Averages automatically
     - **Recommendations**: Get BUY/HOLD/DON'T BUY recommendations
     
-    ### 🚀 How to Use:
+    ### 🚀 How to Use:0
     
     1. Go to **Analysis** page from sidebar
     2. Enter company name and stock symbol

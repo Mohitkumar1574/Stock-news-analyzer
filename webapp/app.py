@@ -240,7 +240,7 @@ with st.sidebar:
     st.markdown("- [Yahoo Finance](https://finance.yahoo.com)")
     
     st.markdown("---")
-    st.caption("© 2026 Stock Analyzer")
+    st.caption("© 2026 Stock Analyzer")   
 
 # ========== PAGE ROUTING ==========
 if page == "📊 Analysis":
@@ -533,6 +533,7 @@ if page == "📊 Analysis":
                         feature_df = pd.DataFrame({
                             'Feature': components['predictor'].feature_names,
                             'Value': features.flatten()
+
                         })
                         st.dataframe(feature_df, use_container_width=True, hide_index=True)
                     
